@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Index</a> |
+        <a href="timetable.html">Timetable</a> |
+        <a href="tutorial.html">Tutorial</a> |
+        <a href="register.html">Register</a> |
+        <a href="blog.html">Blog</a> |
+        <a href="gallery.html">Gallery</a> |
+     </nav>
+    <div>
+        <h1>
+            This is the Registration page
+        </h1>
+        <a href="index.html">
+            Back to home page
+        </a>
+    </div>
+
+    <br><hr>
+
+    <div>
+        <form action="register.php" method="POST">
+            <label for="fname">
+              Full Name:
+            </label>
+           <br>
+           <input type="text" name="fname" id="fname">
+           <br><br>
+
+           <label for="femail">Email:</label>
+           <br>
+           <input type="email" name="femail" id="femail">
+           <br><br>
+
+            <label for="fpword">Password:</label>
+            <br>
+            <input type="password" name="fpword" id="fword">
+            <br><br>
+
+            <label for="fage">Age:</label>
+            <br>
+            <input type="number" name="fage" id="fage" value="18">
+            <br><br>
+
+            <label for="dob">Date of birth</label>
+            <br>
+            <input type="date" name="dob" id="dob">
+            <br><br>
+
+            Select Gender Type: <br>
+            <input type="radio" name="fgender" id="fmale">
+            <label for="fmale">Male</label><br>
+
+            <input type="radio" name="fgender" id="ffemale">
+            <label for="ffemale">Female</label><br>
+
+            <input type="radio" name="fgender" id="fothers">
+            <label for="fothers">Other</label>
+            <br><br>
+
+            Select one or more Subjects:
+            <br>
+            <input type="checkbox" name="fmaths" id="fmaths">
+            <label for="fmaths">Mathematics</label>
+            <br>
+
+            <input type="checkbox" name="fenglish" id="fenglish">
+            <label for="fenglish">English</label>
+            <br>
+
+            <input type="checkbox" name="fcomputer" id="fcomputer">
+            <label for="fcomputer">Computer</label>
+            <br>
+
+            <input type="checkbox" name="flitenglish" id="flitenglish">
+            <label for="flitenglish">Literature in English</label>
+            <br>
+
+            <input type="checkbox" name="fsocial" id="fsocial">
+            <label for="fsocial">Social Studies</label>
+            <br>
+
+            <label for="fmsg">Message</label>
+            <br>
+            <textarea name="fmsg" id="fmsg" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="submit" name="submit">
+
+
+
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
